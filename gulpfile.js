@@ -16,7 +16,7 @@ gulp.task('mini-JS', function () {
                 suffix: ".min",
             })
         )
-        .pipe(gulp.dest('js/dest'))
+        .pipe(gulp.dest('js/dist'))
 
 })
 
@@ -33,7 +33,7 @@ gulp.task('scss', function () {
         .pipe(cleanCSS({
             compatibility: 'ie8'
         }))
-        .pipe(gulp.dest('./css'))
+        .pipe(gulp.dest('./css/dist/'))
 });
 
 gulp.task('pugToHtml', function () {

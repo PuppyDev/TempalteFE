@@ -18,9 +18,11 @@ h6 {
 
 input,
 select,
-textarea {
+textarea,
+button {
     outline: none;
     border: none;
+    background: none;
 }
 
 ol,
